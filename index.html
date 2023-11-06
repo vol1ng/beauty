@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <title>SHOPPE</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+          <a href="#" class="logo"><span class="letter-s">S</span>HOPPE</a>
+          <div class="menu">
+            <ul class="menu-left">
+              <li class="menu-item"><a href="#" class="menu-link">Shop</a></li>
+              <li class="menu-item"><a href="#" class="menu-link">Blog</a></li>
+              <li class="menu-item">
+                <a href="#" class="menu-link">Our Story</a>
+              </li>
+              <li class="separator">|</li>
+            </ul>
+            <ul class="menu-right">
+              <li class="menu-item">
+                <a href="#" class="menu-link"
+                  ><img src="img/lens.svg" alt="" class="menu-link-img"
+                /></a>
+              </li>
+              <li class="menu-item">
+                <a href="#" class="menu-link"
+                  ><img
+                    src="img/shopping_cart.svg"
+                    alt=""
+                    class="menu-link-img"
+                /></a>
+              </li>
+              <li class="menu-item">
+                <a href="#" class="menu-link"
+                  ><img src="img/user.svg" alt="" class="menu-link-img"
+                /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="promo">
+        <div class="container">
+            <!-- <img src="img/promo.jpg" alt="" class="promo-img" /> -->
+            <div class="text">
+              <h2 class="promo-title">Gold big hoops</h2>
+              <p class="promo-price">$ 68,00</p>
+              <a href="#" class="promo-btn">View Product</a>
+          </div>
+        </div>
+      </section>
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img class="swip-img" src="img/promo.jpg" alt=""></div>
+          <div class="swiper-slide"><img class="swip-img" src="img/promo2.jpg" alt=""></div>
+          <div class="swiper-slide"><img class="swip-img" src="img/promo.jpg" alt=""></div>
+          <div class="swiper-slide"><img class="swip-img" src="img/promo2.jpg" alt=""></div>
+
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <section class="shop">
+        <div class="container">
+          <div class="shop-text">
+            <h3 class="shop-title">Shop The Latest</h3>
+            <a href="#" class="shop-link">View All</a>
+          </div>
+          <div class="cards">
+            <div class="card">
+              <img src="img/ears1.png" alt="" class="shop-img" />
+              <a href="#" class="toCart">add to cart</a>
+              <p class="shop-text">Lira Earrings</p>
+              <p class="shop-price">$ 20,00</p>
+            </div>
+            <div class="card">
+              <img src="img/ears2.png" alt="" class="shop-img" />
+              <a href="#" class="toCart">add to cart</a>
+              <p class="shop-text">Hal Earrings</p>
+              <p class="shop-price">$ 25,00</p>
+            </div>
+            <div class="card">
+              <img src="img/ears3.png" alt="" class="shop-img" />
+              <a href="#" class="toCart">add to cart</a>
+              <p class="shop-text">Kaede Hair Pin Set Of 3</p>
+              <p class="shop-price">$ 30,00</p>
+            </div>
+            <div class="card">
+              <img src="img/ears4.png" alt="" class="shop-img" />
+              <a href="#" class="toCart">add to cart</a>
+              <p class="shop-text">Hair Pin Set of 3</p>
+              <p class="shop-price">$ 30,00</p>
+            </div>
+            <div class="card">
+              <img src="img/ears5.png" alt="" class="shop-img" />
+              <a href="#" class="toCart">add to cart</a>
+              <p class="shop-text">Plaine Necklace</p>
+              <p class="shop-price">$ 19,00</p>
+            </div>
+            <div class="card">
+              <img src="img/ears6.png" alt="" class="shop-img" />
+              <a href="#" class="toCart">add to cart</a>
+              <p class="shop-text">Yuki Hair Pin Set of 3</p>
+              <p class="shop-price">$ 29,00</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__inner">
+          <div class="footer-menu">
+            <ul class="footer-menu-list">
+              <li class="footer-menu-list-item">
+                <a href="#" class="footer-menu-list-link">CONTACT</a>
+              </li>
+              <li class="footer-menu-list-item">
+                <a href="#" class="footer-menu-list-link">TERMS OF SERVICES</a>
+              </li>
+              <li class="footer-menu-list-item">
+                <a href="#" class="footer-menu-list-link"
+                  >SHIPPING AND RETURNS</a
+                >
+              </li>
+            </ul>
+            <div class="form">
+              <form action="">
+                <input
+                  class="footer-input"
+                  type="email"
+                  placeholder="Give an email, get the newsletter."
+                />
+              </form>
+              <button type="submit"class="submit">
+                <img src="img/arrow.svg" class="footer-arrow" alt="" />
+              </и>
+            </div>
+          </div>
+          <div class="footer-menu">
+            <p class="copyright">
+              <b>© 2021 Shelly.</b> Terms of use <b>and</b> privacy policy.
+            </p>
+            <ul class="footer-menu-socials">
+              <li class="footer-menu-item">
+                <a href="" class="footer-menu-link"
+                  ><img src="img/footer-icon1.svg" class="footer-menu-icon"
+                /></a>
+              </li>
+              <li class="footer-menu-item">
+                <a href="" class="footer-menu-link"
+                  ><img src="img/footer-icon2.svg" class="footer-menu-icon"
+                /></a>
+              </li>
+              <li class="footer-menu-item">
+                <a href="" class="footer-menu-link"
+                  ><img src="img/footer-icon3.svg" class="footer-menu-icon"
+                /></a>
+              </li>
+              <li class="footer-menu-item">
+                <a href="#" class="footer-menu-link"
+                  ><img src="img/footer-icon4.svg" class="footer-menu-icon"
+                /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
