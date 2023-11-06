@@ -223,14 +223,14 @@ body {
   display: flex;
   align-items: center;
   flex-basis: 400px;
+  margin-bottom: 50px;
+  border-bottom: 1px solid #000;
+  padding-bottom: 13px;
 }
 .footer-arrow {
   margin-left: auto;
 }
-.form {
-  border-bottom: 1px solid #000;
-  padding-bottom: 13px;
-}
+
 input::placeholder {
   font-size: 16px;
   line-height: 27;
